@@ -12,7 +12,32 @@
   <body>
     <div class="main">
       <form class="form">
-        <!-- input go here -->
+        <input
+          class="input"
+          type="text"
+          name="name"
+          placeholder="Name"
+          required
+          minlength="20"
+        />
+        <input
+          class="input"
+          type="number"
+          name="contributors"
+          placeholder="Number of Contributors"
+          required
+          min="1"
+          max="100"
+        />
+        <input
+          class="input"
+          type="number"
+          name="max_branches"
+          placeholder="Max Branches"
+          required
+          min="1"
+          max="100"
+        />
         <button class="button">Save</button>
       </form>
     </div>
